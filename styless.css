@@ -23,9 +23,13 @@ h1, h2, p {
 
 header {
   background-color: var(--color-3);
+  background-image: url(anim2.gif);
   color: var(--color-1);
   padding: 20px 0;
   text-align: center;
+  background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+  background-position: center; /* Menempatkan gambar di tengah */
+  background-size: 800px;
 }
 header h1 {
   font-size: var(--2xl);
@@ -48,7 +52,6 @@ header p {
   border-radius: 8px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   margin: 10px;
-  padding: 20px;
   width: 300px;
   text-align: center;
 }
@@ -62,9 +65,11 @@ header p {
 .container .card h3 {
   margin: 15px 0;
   color: var(--color-3);
+  padding: 0 20px;
 }
 .container .card p {
   color: var(--color-4);
+  padding: 0 20px;
 }
 .container .card .button {
   background-color: var(--color-3);
@@ -74,6 +79,7 @@ header p {
   border-radius: 5px;
   display: inline-block;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 .container .card .button:hover {
   background-color: var(--color-1);
