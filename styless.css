@@ -94,6 +94,15 @@ header p {
 }
 
 @media (max-width: 425px) {
+  header {
+    background-size: 600px;
+  }
+  header img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
   header h1 {
     font-size: var(--xl);
   }
